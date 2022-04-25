@@ -1,14 +1,14 @@
 *{
   padding: 0;
   margin: 0;
-  background-color: hsl(236, 45%, 12%);
+  background-color:hsl(217, 54%, 11%);
 }
 .card{
   align-items: center;
   justify-content: center;
-  width: 300px;
-  height: 500px;
-  background-color: hsl(226, 40%, 32%);
+  width: 350px;
+  height: 530px;
+  background-color: hsl(216, 50%, 16%);
   position: relative;
   box-sizing: border-box;
   border-radius: 10px;
@@ -24,7 +24,7 @@
   .h3,.eth{
     color: #4cc9f0;
     margin: 10px;
-    background-color:hsl(226, 40%, 32%)  ;
+    background-color:hsl(216, 50%, 16%)  ;
     cursor: pointer;
     
   }
@@ -37,22 +37,23 @@
 
   }
   .div1{
-    color: #4cc9f0;
+    color:hsl(178, 100%, 50%);
     font-weight: 600;
     line-height: 20px;
   }
   .our{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
     padding-top: 15px;
-    color: #e9ecef;
+    color:hsl(0, 0%, 100%);
   }
   .h3{
     font-weight: 800;
+    color: hsl(0, 0%, 100%);
   }
   p{
-    color: #e9ecef;
-    background-color: hsl(226, 40%, 32%);
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(216, 50%, 16%);
     margin: 10px;
     font-weight: 300;
   }
@@ -60,35 +61,35 @@
   border-radius: 100%;
   width: 30px;
   height: 30px;
-  background-color:  hsl(226, 40%, 32%);
+  background-color:  hsl(216, 50%, 16%);
   display: flex;
   justify-content: left;
-  border: 1px solid #fff;
+  border: 1px solid hsl(0, 0%, 100%);
 }
 svg{
-  background-color:  hsl(226, 40%, 32%);
+  background-color:  hsl(216, 50%, 16%);
   margin-right: 5px;
 
 }
 .equil{
-  background-color: hsl(226, 40%, 32%);
+  background-color: hsl(216, 50%, 16%);
   box-sizing: border-box;
-  border-radius: 20px;
-  width: 280px;
+  border-radius: 5px;
+  width: 300px;
   height: 250px;
   border: none;
   cursor: pointer;
-  margin: 10px;
+  margin: 25px;
 }
 .attribution{
   background-color:#f9dcc4  ;
   
 }
 a{
-  background-color:  hsl(226, 40%, 32%);
+  background-color:  hsl(216, 50%, 16%);
 }
 .para1{
-  background-color: hsl(226, 40%, 32%) ;
+  background-color: hsl(216, 50%, 16%) ;
   display: flex;
   justify-content: left;
   margin: 10px;
@@ -96,7 +97,7 @@ a{
 
    }
    .wrapper{
-    background-color: hsl(226, 40%, 32%);
+    background-color: hsl(216, 50%, 16%);
     display: flex;
     align-content: stretch;
     cursor: pointer;
@@ -104,7 +105,7 @@ line-height: 1px;
    }
 .para{
   margin-top: 10px;
-  background-color: hsl(226, 40%, 32%);
+  background-color: hsl(216, 50%, 16%);
   padding-left: 30px;
 }
 .h6{
@@ -118,11 +119,11 @@ hr{
   align-items: center;
   width: 90%;
   margin-left: 15px;
-  height: 0px;
-  border: 1 px solid #adb5bd ;
-  line-height: 1px;
-
+   color: hsl(215, 32%, 27%);
+  border-width: 1px;
+  border-style: none;
+  height: 1px;
 }
 .att{
   background-color: #fff;
-}
+ }
